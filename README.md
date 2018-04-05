@@ -21,6 +21,7 @@ You need to have the following before you can start using this application
 * Zookeeper
 * Kafka
 * [Schema Registry]()
+* [Kafka Commons](https://github.com/reddy-s/kafka-commons) maven dependency
 
 ## Setup process
 
@@ -29,6 +30,11 @@ Clone the repo and `cd` into the root directory of the repo.
 Run the following command to build the application
 ```sbtshell
 mvn clean install
+```
+
+Run the application using
+```sbtshell
+java -jar ./target/*.jar
 ```
 
 The configuration for the application can be externalized by using a dedicated config server or by having a properties file.
