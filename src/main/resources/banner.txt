@@ -1,0 +1,13 @@
+${AnsiColor.MAGENTA} _______  _______  _______  ______            _______  _______  _______
+${AnsiColor.MAGENTA} (  ____ )(  ____ )(  ___  )(  __  \ |\     /|(  ____ \(  ____ \(  ____ )
+${AnsiColor.MAGENTA} | (    )|| (    )|| (   ) || (  \  )| )   ( || (    \/| (    \/| (    )|
+${AnsiColor.MAGENTA} | (____)|| (____)|| |   | || |   ) || |   | || |      | (__    | (____)|
+${AnsiColor.MAGENTA} |  _____)|     __)| |   | || |   | || |   | || |      |  __)   |     __)
+${AnsiColor.MAGENTA} | (      | (\ (   | |   | || |   ) || |   | || |      | (      | (\ (
+${AnsiColor.MAGENTA} | )      | ) \ \__| (___) || (__/  )| (___) || (____/\| (____/\| ) \ \__
+${AnsiColor.MAGENTA} |/       |/   \__/(_______)(______/ (_______)(_______/(_______/|/   \__/
+
+${AnsiColor.BRIGHT_BLUE} ${info.app.name} :: ${AnsiColor.BRIGHT_CYAN} Running Spring Boot ${spring-boot.version}
+${AnsiColor.BRIGHT_BLUE} Description :: ${AnsiColor.BRIGHT_CYAN} ${info.app.description}
+${AnsiColor.GREEN} Data being published to :: ${AnsiColor.BRIGHT_CYAN} ${kafka.topic}
+${AnsiColor.GREEN} Categories being read from twitter :: ${AnsiColor.BRIGHT_CYAN} ${twitter.hashtags}

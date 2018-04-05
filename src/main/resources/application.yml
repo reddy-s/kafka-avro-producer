@@ -1,0 +1,33 @@
+# Kafka settings
+kafka:
+  topic: Tweets
+  bootstrap:
+    servers: localhost:9092
+
+# Schema settings
+schema:
+  registry:
+    url: http://localhost:8081
+  version: tweet:v1
+
+# Twitter settings
+twitter:
+  hashtags: sport,politics,health
+
+# Server settings
+server:
+  port: 10001
+
+# Application information
+info:
+  app:
+    name: Kafka Producer Application
+    description: Read messages from twitter and push it to kafka (Alternative to Kafka Connect)
+    version: 1.0.0
+
+# Actuator Settings
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health,metrics,beans
