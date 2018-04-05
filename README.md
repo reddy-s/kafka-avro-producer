@@ -120,4 +120,4 @@ which would result in an output like this:
 }
 ```
 
-Check out the [Kafka-Avro-Consumer]() which can be used to consume these tweets with a `BACKWARD` compatibility level of the schema.
+Check out the [Kafka-Avro-Consumer](https://github.com/reddy-s/kafka-avro-consumer) which can be used to consume these tweets with a `BACKWARD` compatibility level of the schema.
