@@ -22,6 +22,9 @@ You need to have the following before you can start using this application
 * Kafka
 * [Schema Registry]()
 * [Kafka Commons](https://github.com/reddy-s/kafka-commons) maven dependency
+* Twitter Integration tokens
+
+> Note: Once you have the twitter integration tokens, add them to the `kafka-avro-producer/src/main/resources/twitter4j.properties` file in the repo
 
 ## Setup process
 
